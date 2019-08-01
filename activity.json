@@ -1,0 +1,24 @@
+{
+  "name": "trimtest",
+  "version": "0.0.1",
+  "type": "flogo:activity",
+  "ref": "github.com/purna-s/trimtest",  
+  "title": "VMSParser",
+  "description": "Removes leading and trailing spaces",
+  "author": "Purna S <purna.sadanala@prowesssoft.com>",
+
+  "inputs":[
+    
+    {
+      "name": "xmlString",
+      "type": "string",
+      "required": true
+    }
+  ],
+  "outputs": [
+    {
+      "name": "output",
+      "type": "string"
+    }
+  ]
+}
