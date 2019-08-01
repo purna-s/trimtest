@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"testing"
-
+	"strings"
 	"github.com/TIBCOSoftware/flogo-contrib/action/flow/test"
 	"github.com/TIBCOSoftware/flogo-lib/core/activity"
 	"github.com/stretchr/testify/assert"

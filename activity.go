@@ -1,10 +1,8 @@
 package trimtest
 
 import (
-	"encoding/json"
-	"encoding/xml"
 	"fmt"
-
+	"strings"
 	"github.com/TIBCOSoftware/flogo-lib/core/activity"
 	"github.com/TIBCOSoftware/flogo-lib/logger"
 )
