@@ -41,7 +41,7 @@ func (a *XMLParserActivity) Eval(ctx activity.Context) (done bool, err error) {
 	}
 	//	XMLString = (string(XMLString))
 
-	trimstring := strings.TrimSpace(xmlString)
+	trimstring := strings.TrimSpace(XMLString)
 
 	//fmt.Println(" JSON String ")
 	//fmt.Println(string(jsondata))
